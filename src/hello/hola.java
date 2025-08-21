@@ -5,7 +5,7 @@ public class hola {
         int age = 12;
         String name = "angelo";
         String ciudad = "";
-        double salary = 1100;
+        double salary = 1000;
         boolean sexo = true;
 
         System.out.println(age + name +  ciudad +    salary +   sexo);
