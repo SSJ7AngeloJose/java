@@ -1,6 +1,6 @@
 package Math;
 
-public class Operadores {
+public class Math_sqrt_raiz {
     public static void main(String[] args) {
         //raiz cuadrada
           double raiz = Math.sqrt(9);

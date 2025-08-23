@@ -1,6 +1,6 @@
 package Math;
 
-public class Math_pow {
+public class Math_pow_cuadrado {
     public static void main(String[] args) {
         double base = 5, exponente =  2;
         double resultado = Math.pow(base, exponente);
