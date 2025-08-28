@@ -1,4 +1,4 @@
-package condicionales;
+package condicionales_else_if;
 
 import javax.swing.*;
 
