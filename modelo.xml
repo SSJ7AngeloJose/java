@@ -1,0 +1,42 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://servicio.interfazST.webservice.novatronic.com" xmlns:xsd="http://entidades.interfazST.webservice.novatronic.com/xsd">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ser:recarga>
+            <ser:recargaRequest>
+                <xsd:binAdquiriente>xxxxxx</xsd:binAdquiriente>
+                <xsd:binAdquirienteReenvia>xxxxxx</xsd:binAdquirienteReenvia>
+                <xsd:canal>15</xsd:canal>
+                <xsd:codigoMoneda>604</xsd:codigoMoneda>
+                <fechaCaptura>2025-01-22</fechaCaptura>
+                <fechaTransaccion>2025-01-22T19:20:00.398-05:00</fechaTransaccion>
+                <xsd:mac></xsd:mac>
+                <nombreComercio>QUILLACOOP</nombreComercio>
+                <numeroComercio>xxxxxx</numeroComercio>
+                <xsd:numeroReferencia>111225</xsd:numeroReferencia>
+                <xsd:numeroTerminal>XXX1</xsd:numeroTerminal>
+                <!-- xsd:trace>?</xsd:trace -->
+                <xsd:cuentaDestino></xsd:cuentaDestino>
+                <xsd:cuentaOrigen></xsd:cuentaOrigen>
+                <xsd:fechaExpiracionTarjeta></xsd:fechaExpiracionTarjeta>
+                <xsd:numeroTarjeta></xsd:numeroTarjeta>
+                <xsd:pinblock></xsd:pinblock>
+                <xsd:track2Data></xsd:track2Data>
+                <xsd:codigoCadena>106</xsd:codigoCadena>
+                <xsd:codigoFormato>02</xsd:codigoFormato>
+                <!--<xsd:datosUsuario>ICP30D500MB</xsd:datosUsuario>-->
+                <xsd:datosUsuario>Código de paquete brindado por CLARO</xsd:datosUsuario>
+                <xsd:indicadorNumDocAutGenPorAdq>0</xsd:indicadorNumDocAutGenPorAdq>
+                <xsd:montoRecarga>Monto del paquete</xsd:montoRecarga>
+                <xsd:nombreComprador>Carlos</xsd:nombreComprador>
+                <xsd:numDocAutorizado></xsd:numDocAutorizado>
+                <xsd:numeroDocumentoComprador>12345678</xsd:numeroDocumentoComprador>
+                <!-- xsd:numeroTelefono>99999999</xsd:numeroTelefono -->
+                <xsd:numeroTelefono>99999999</xsd:numeroTelefono>
+                <xsd:procesador>000001</xsd:procesador>
+                <xsd:producto>00000005</xsd:producto>
+                <xsd:telco>111111</xsd:telco>
+                <xsd:tipoDocumentoComprador>1</xsd:tipoDocumentoComprador>
+            </ser:recargaRequest>
+        </ser:recarga>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,36 @@
+<NS1:Envelope xmlns:NS1="http://schemas.xmlsoap.org/soap/envelope/">
+    <NS1:Body>
+        <NS2:consultaDeuda xmlns:NS2="http://servicio.interfazST.webservice.novatronic.com">
+            <NS2:consultaDeudaRequest>
+                <NS2:binAdquiriente>521100</NS2:binAdquiriente>
+                <NS2:binAdquirienteReenvia>521100</NS2:binAdquirienteReenvia>
+                <NS2:canal>90</NS2:canal>
+                <NS2:codigoMoneda>604</NS2:codigoMoneda>
+                <NS2:fechaCaptura>2025-07-24-05:00</NS2:fechaCaptura>
+                <NS2:fechaTransaccion>2025-07-24T22:19:42-05:00</NS2:fechaTransaccion>
+                <NS2:mac></NS2:mac>
+                <NS2:nombreComercio>Recaudos Claro</NS2:nombreComercio>
+                <NS2:numeroComercio>111111</NS2:numeroComercio>
+                <NS2:numeroReferencia>273924</NS2:numeroReferencia>
+                <NS2:numeroTerminal>TERM1234</NS2:numeroTerminal>
+                <NS2:trace>273924</NS2:trace>
+
+                <NS2:acreedor>111111</NS2:acreedor>
+                <NS2:agencia>CH01</NS2:agencia>
+                <NS2:ciudad>CI</NS2:ciudad>
+                <NS2:codigoDocumentoPago></NS2:codigoDocumentoPago>
+                <NS2:codigoFormato>01</NS2:codigoFormato>
+                <NS2:datosTransaccion></NS2:datosTransaccion>
+                <NS2:plaza>PZCH</NS2:plaza>
+                <NS2:posicionUltimoDocumento>0</NS2:posicionUltimoDocumento>
+
+                <NS2:procesador>000002</NS2:procesador>
+                <NS2:producto>00</NS2:producto>
+                <NS2:tamanioMaximoBloque>4096</NS2:tamanioMaximoBloque>
+                <NS2:tipoDocumentoPago></NS2:tipoDocumentoPago>
+                <NS2:tipoIdentificacionDeudor>00</NS2:tipoIdentificacionDeudor>
+                <NS2:numeroIdentificacionDeudor>75647586</NS2:numeroIdentificacionDeudor>
+            </NS2:consultaDeudaRequest>
+        </NS2:consultaDeuda>
+    </NS1:Body>
+</NS1:Envelope>
