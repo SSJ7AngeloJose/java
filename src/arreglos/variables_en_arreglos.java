@@ -1,6 +1,6 @@
 package arreglos;
 
-public class arreglos_1 {
+public class variables_en_arreglos {
     public static void main(String[] args){
      int[] edad = new int[5];
      long[] telefono = new long[5];
@@ -9,5 +9,9 @@ public class arreglos_1 {
      boolean[] vacunado = new boolean[5];
      char[]genero = new char[5];
         String[] nombre = new String[5];
+
+        int[] numero = {1,2,3,4,5};
+
+
     }
 }
