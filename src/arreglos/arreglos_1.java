@@ -20,7 +20,7 @@ public class arreglos_1 {
         }
 
         System.out.println("lo caracteres del arreglo en total son: ");
-        for (int i = 2; i < nelementos ; i++){
+        for (int i = 0; i < nelementos ; i++){
             System.out.println(letras[i] + " ");
         }
 
